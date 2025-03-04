@@ -37,4 +37,24 @@
   .menue_item:hover {
     text-decoration: underline;
   }
-   
+  .menu_icon {
+    height: 40px;
+    display: none;
+  }
+  
+  /* mobile */
+@media (max-width: 600px) {
+  .search_box {
+    display: none;
+  }
+  .menue {
+    display: none;
+  }
+
+  .menu_icon {
+    color: black;
+    display: block;
+    margin-right: 40px;
+    margin-left: auto;
+  }
+}
